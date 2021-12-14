@@ -1,0 +1,20 @@
+InsertStmt
+'INSERT' 'INTO' Identifier '(' ColumnNames ')' 'VALUES' Values
+'INSERT' 'INTO' Identifier '(' ColumnNames ',' Identifier ')' 'VALUES' Values
+'INSERT' 'INTO' Identifier '(' Identifier ',' Identifier ')' 'VALUES' Values
+'INSERT' 'INTO' Identifier '(' Identifier ',' Identifier ')' 'VALUES' Values ',' '(' Exprs ')'
+'INSERT' 'INTO' Identifier '(' Identifier ',' Identifier ')' 'VALUES' '(' Exprs ')' ',' '(' Exprs ')'
+'INSERT' 'INTO' Identifier '(' Identifier ',' Identifier ')' 'VALUES' '(' Expr ',' Expr ')' ',' '(' Exprs ')'
+'INSERT' 'INTO' Identifier '(' Identifier ',' Identifier ')' 'VALUES' '(' AddSub ',' Expr ')' ',' '(' Exprs ')'
+'INSERT' 'INTO' Identifier '(' Identifier ',' Identifier ')' 'VALUES' '(' MultDiv ',' Expr ')' ',' '(' Exprs ')'
+'INSERT' 'INTO' Identifier '(' Identifier ',' Identifier ')' 'VALUES' '(' MultDiv '*' Primary ',' Expr ')' ',' '(' Exprs ')'
+'INSERT' 'INTO' Identifier '(' Identifier ',' Identifier ')' 'VALUES' '(' Primary '*' Primary ',' Expr ')' ',' '(' Exprs ')'
+'INSERT' 'INTO' Identifier '(' Identifier ',' Identifier ')' 'VALUES' '(' '(' Expr ')' '*' Primary ',' Expr ')' ',' '(' Exprs ')'
+'INSERT' 'INTO' Identifier '(' Identifier ',' Identifier ')' 'VALUES' '(' '(' AddSub ')' '*' Primary ',' Expr ')' ',' '(' Exprs ')'
+'INSERT' 'INTO' Identifier '(' Identifier ',' Identifier ')' 'VALUES' '(' '(' AddSub '+' MultDiv ')' '*' Primary ',' Expr ')' ',' '(' Exprs ')'
+'INSERT' 'INTO' Identifier '(' Identifier ',' Identifier ')' 'VALUES' '(' '(' MultDiv '+' MultDiv ')' '*' Primary ',' Expr ')' ',' '(' Exprs ')'
+'INSERT' 'INTO' Identifier '(' Identifier ',' Identifier ')' 'VALUES' '(' '(' Primary '+' MultDiv ')' '*' Primary ',' Expr ')' ',' '(' Exprs ')'
+'INSERT' 'INTO' Identifier '(' Identifier ',' Identifier ')' 'VALUES' '(' '(' Number '+' MultDiv ')' '*' Primary ',' Expr ')' ',' '(' Exprs ')'
+'INSERT' 'INTO' Identifier '(' Identifier ',' Identifier ')' 'VALUES' '(' '(' Number '+' Primary ')' '*' Primary ',' Expr ')' ',' '(' Exprs ')'
+'INSERT' 'INTO' Identifier '(' Identifier ',' Identifier ')' 'VALUES' '(' '(' Number '+' Number ')' '*' Primary ',' Expr ')' ',' '(' Exprs ')'
+'INSERT' 'INTO' Identifier '(' Identifier ',' Identifier ')' 'VALUES' '(' '(' Number '+' Number ')' '*' Number ',' Expr ')' ',' '(' Exprs ')'

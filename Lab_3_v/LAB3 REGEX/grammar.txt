@@ -1,0 +1,10 @@
+INSERT INTO t1 (col1, col2) VALUES((1 + 2) * 3, (1 - 4) / 5), (6, 7)
+
+*InsertStmt: 'INSERT' 'INTO' Identifier '(' ColumnNames ')' 'VALUES' Values
+ColumnNames : Identifier (',' Identifier)*
+Values: '(' Exprs ')' (',' '(' Exprs ')')*
+Exprs: Expr (',' Expr)*
+Expr: AddSub
+AddSub: (AddSub ('+' | '-'))? MultDiv
+MultDiv: (MultDiv ('*' | '/'))? Primary
+Primary: '(' Expr ')' | Number | Identifier

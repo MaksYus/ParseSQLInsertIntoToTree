@@ -1,0 +1,14 @@
+C:\Users\valya\Desktop\LAB3 REGEX\LAB3 REGEX\bin\Debug\LAB3 REGEX.exe.config
+C:\Users\valya\Desktop\LAB3 REGEX\LAB3 REGEX\bin\Debug\LAB3 REGEX.exe
+C:\Users\valya\Desktop\LAB3 REGEX\LAB3 REGEX\bin\Debug\LAB3 REGEX.pdb
+C:\Users\valya\Desktop\LAB3 REGEX\LAB3 REGEX\obj\Debug\LAB3 REGEX.csprojAssemblyReference.cache
+C:\Users\valya\Desktop\LAB3 REGEX\LAB3 REGEX\obj\Debug\LAB3 REGEX.csproj.CoreCompileInputs.cache
+C:\Users\valya\Desktop\LAB3 REGEX\LAB3 REGEX\obj\Debug\LAB3 REGEX.exe
+C:\Users\valya\Desktop\LAB3 REGEX\LAB3 REGEX\obj\Debug\LAB3 REGEX.pdb
+D:\TVPIS\Lab_3_v\LAB3 REGEX\bin\Debug\LAB3 REGEX.exe.config
+D:\TVPIS\Lab_3_v\LAB3 REGEX\bin\Debug\LAB3 REGEX.exe
+D:\TVPIS\Lab_3_v\LAB3 REGEX\bin\Debug\LAB3 REGEX.pdb
+D:\TVPIS\Lab_3_v\LAB3 REGEX\obj\Debug\LAB3 REGEX.csproj.AssemblyReference.cache
+D:\TVPIS\Lab_3_v\LAB3 REGEX\obj\Debug\LAB3 REGEX.csproj.CoreCompileInputs.cache
+D:\TVPIS\Lab_3_v\LAB3 REGEX\obj\Debug\LAB3 REGEX.exe
+D:\TVPIS\Lab_3_v\LAB3 REGEX\obj\Debug\LAB3 REGEX.pdb

@@ -1,0 +1,7 @@
+C:\Users\valya\Desktop\LAB3 REGEX\Visitor\obj\Debug\Visitor.csprojAssemblyReference.cache
+C:\Users\valya\Desktop\LAB3 REGEX\Visitor\obj\Debug\Visitor.csproj.CoreCompileInputs.cache
+C:\Users\valya\Desktop\LAB3 REGEX\Visitor\bin\Debug\Visitor.exe.config
+C:\Users\valya\Desktop\LAB3 REGEX\Visitor\bin\Debug\Visitor.exe
+C:\Users\valya\Desktop\LAB3 REGEX\Visitor\bin\Debug\Visitor.pdb
+C:\Users\valya\Desktop\LAB3 REGEX\Visitor\obj\Debug\Visitor.exe
+C:\Users\valya\Desktop\LAB3 REGEX\Visitor\obj\Debug\Visitor.pdb
